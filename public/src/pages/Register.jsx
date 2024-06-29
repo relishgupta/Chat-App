@@ -165,7 +165,7 @@ const FormContainer=styled.div`
         padding:1rem 2rem;
         border:none;
         font-weight:bold;
-        cursor-pointer;
+        cursor:pointer;
         border-radius:0.4rem;
         font-size:1rem;
         text-transform:uppercase;
@@ -183,8 +183,6 @@ const FormContainer=styled.div`
             font-weight:bold;
         }
     }
-   }
-}
 `;
 
 export default Register;
