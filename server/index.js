@@ -8,7 +8,8 @@ const socket=require("socket.io");
 require("dotenv").config();
 
 const corsOptions = {
-    origin: 'https://chat-app-j744.vercel.app',
+    // origin: 'https://chat-app-j744.vercel.app',
+    origin: '*',
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
   };
