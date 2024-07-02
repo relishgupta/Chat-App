@@ -10,7 +10,7 @@ require("dotenv").config();
 const corsOptions = {
     // origin: 'https://chat-app-j744.vercel.app',
     origin: '*',
-    methods: ['GET', 'POST', 'OPTIONS'],
+    methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Authorization']
   };
 
